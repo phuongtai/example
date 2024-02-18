@@ -26,13 +26,15 @@
         <div class="row mb-4 ">
             <div class="col align-items-end">
                 <label for="subtitle" class="form-label">Select Subtitle</label>
-                <select id="subtitle" onchange="switchSubtitle(this.value)" class="form-select">
+                <!-- <select id="subtitle" onchange="switchSubtitle(this.value)" class="form-select">
                     <option value="en">English</option>
                     <option value="de">Deutsch</option>
                     <option value="es">Español</option>
-                </select>
+                </select> -->
+                <button class="btn btn-primary" onclick="switchSubtitle('en')">English</button>
+                <button class="btn btn-primary" onclick="switchSubtitle('de')">Deutsch</button>
+                <button class="btn btn-primary" onclick="switchSubtitle('es')">Español</button>
             </div>
-            <div class="col"></div>
             <div class="col"></div>
 
 
